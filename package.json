@@ -2,16 +2,13 @@
   "name": "backpack-examples-with-custom-webpack-config",
   "version": "0.3.0",
   "scripts": {
-    "start": "node --use_strict ./services/start.js",
+    "start": "node --use_strict ./services/main.js",
     "dev": "backpack dev",
     "build": "backpack build",
     "postinstall": "backpack build"
   },
   "license": "MIT",
   "dependencies": {
-    "backpack-core": "^0.3.0",
-    "express": "^4.14.0",
-
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
     "babel-plugin-transform-runtime": "^6.22.0",
@@ -20,8 +17,11 @@
     "babel-preset-es2015-node6": "0.3.0",
     "babel-preset-stage-3": "^6.22.0",
     "babel-register": "^6.22.0",
+    "backpack-core": "^0.3.0",
+    "express": "^4.14.0",
     "koa": "2.0.0",
     "koa-bodyparser": "3.2.0",
-    "koa-router": "^7.2.1"
+    "koa-router": "^7.2.1",
+    "nunjucks": "^3.0.1"
   }
 }
